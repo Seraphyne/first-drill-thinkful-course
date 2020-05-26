@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto&family=Special+Elite&display=swap');
+
+
+main {
+  margin-top: 60px;
+}
+
+main h1 {
+  margin: 0 10px;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 65px;
+}
+
+main h2 {
+  margin: 18px 0 12px 0;
+  border-bottom: 1px solid #5c4f41;
+  font-family: 'Special Elite', cursive;
+  font-size: 24px;
+}
+main h3 {
+  margin: 18px 0 12px 0;
+  border-bottom: 1px solid #5c4f41;
+  font-family: 'Special Elite', cursive;
+  font-size: 18px;
+}
+
+main p {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0;
+}
+
+.background {
+  background-color: SaddleBrown;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.block img {
+ width: 100%;
+}
+
+.inner-block {
+  flex: 1;
+  margin: 10px;
+}
+
+.double {
+  flex: 2;
+  margin: 10px;
+}
+
+/* Desktop */
+
+@media all and (min-width: 700px) {
+
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+
+  .block {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .block img {
+    width: 80%;
+   }
+
+  
+}
